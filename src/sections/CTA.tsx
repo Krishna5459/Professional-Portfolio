@@ -137,26 +137,34 @@ const CTA = () => {
           <ArrowRight size={20} className="group-hover:translate-x-2 transition-transform duration-300" />
         </a>
 
+        {/* Availability Badge */}
+        <div className="flex justify-center mb-8">
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-green-500/10 border border-green-500/20">
+            <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
+            <span className="text-sm text-green-400 font-medium">Open for Work</span>
+          </div>
+        </div>
+
         {/* Contact Info Grid */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-3xl mx-auto">
+        <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
           {/* Email */}
           <a 
             href="mailto:krishnaloganathan222@gmail.com"
-            className="contact-item group flex flex-col items-center gap-3 p-4 rounded-xl bg-white/[0.02] border border-white/5 hover:border-white/20 hover:bg-white/[0.05] transition-all duration-300 sm:col-span-2 lg:col-span-2"
+            className="contact-item group flex flex-col items-center gap-3 p-6 rounded-xl bg-white/[0.02] border border-white/5 hover:border-white/20 hover:bg-white/[0.05] transition-all duration-300"
           >
             <div className="w-12 h-12 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-white/10 transition-colors">
               <Mail size={20} className="text-white/70" />
             </div>
             <div className="text-center">
               <div className="text-xs text-white/40 mb-1">Email</div>
-              <div className="text-sm text-white/70 group-hover:text-white transition-colors break-all">krishnaloganathan222@gmail.com</div>
+              <div className="text-sm text-white/70 group-hover:text-white transition-colors">krishnaloganathan222@gmail.com</div>
             </div>
           </a>
 
           {/* Phone */}
           <a 
             href="tel:+919113927440"
-            className="contact-item group flex flex-col items-center gap-3 p-4 rounded-xl bg-white/[0.02] border border-white/5 hover:border-white/20 hover:bg-white/[0.05] transition-all duration-300"
+            className="contact-item group flex flex-col items-center gap-3 p-6 rounded-xl bg-white/[0.02] border border-white/5 hover:border-white/20 hover:bg-white/[0.05] transition-all duration-300"
           >
             <div className="w-12 h-12 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-white/10 transition-colors">
               <Phone size={20} className="text-white/70" />
@@ -168,24 +176,13 @@ const CTA = () => {
           </a>
 
           {/* Location */}
-          <div className="contact-item flex flex-col items-center gap-3 p-4 rounded-xl bg-white/[0.02] border border-white/5">
+          <div className="contact-item flex flex-col items-center gap-3 p-6 rounded-xl bg-white/[0.02] border border-white/5">
             <div className="w-12 h-12 rounded-full bg-white/5 flex items-center justify-center">
               <MapPin size={20} className="text-white/70" />
             </div>
             <div className="text-center">
               <div className="text-xs text-white/40 mb-1">Location</div>
               <div className="text-sm text-white/70">Bangalore, India</div>
-            </div>
-          </div>
-
-          {/* Availability */}
-          <div className="contact-item flex flex-col items-center gap-3 p-4 rounded-xl bg-white/[0.02] border border-white/5">
-            <div className="w-12 h-12 rounded-full bg-green-500/10 flex items-center justify-center">
-              <div className="w-3 h-3 rounded-full bg-green-400 animate-pulse" />
-            </div>
-            <div className="text-center">
-              <div className="text-xs text-white/40 mb-1">Status</div>
-              <div className="text-sm text-green-400">Open for Work</div>
             </div>
           </div>
         </div>
