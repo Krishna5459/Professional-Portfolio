@@ -142,7 +142,7 @@ const CTA = () => {
           {/* Email */}
           <a 
             href="mailto:krishnaloganathan222@gmail.com"
-            className="contact-item group flex flex-col items-center gap-3 p-4 rounded-xl bg-white/[0.02] border border-white/5 hover:border-white/20 hover:bg-white/[0.05] transition-all duration-300"
+            className="contact-item group flex flex-col items-center gap-3 p-4 rounded-xl bg-white/[0.02] border border-white/5 hover:border-white/20 hover:bg-white/[0.05] transition-all duration-300 sm:col-span-2 lg:col-span-2"
           >
             <div className="w-12 h-12 rounded-full bg-white/5 flex items-center justify-center group-hover:bg-white/10 transition-colors">
               <Mail size={20} className="text-white/70" />
