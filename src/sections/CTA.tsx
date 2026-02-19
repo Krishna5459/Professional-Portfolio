@@ -149,7 +149,7 @@ const CTA = () => {
             </div>
             <div className="text-center">
               <div className="text-xs text-white/40 mb-1">Email</div>
-              <div className="text-sm text-white/70 group-hover:text-white transition-colors">krishnaloganathan222@gmail.com</div>
+              <div className="text-sm text-white/70 group-hover:text-white transition-colors break-all">krishnaloganathan222@gmail.com</div>
             </div>
           </a>
 
